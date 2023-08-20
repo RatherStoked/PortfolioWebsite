@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='pt-64 flex'>
+    <div className='pt-32 flex'>
         <div className="pr-4">
         <a
           href=""

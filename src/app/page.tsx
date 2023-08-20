@@ -4,12 +4,13 @@ import React, { useState, useEffect, ReactNode } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import Card from "./components/card";
+import Card from "./components/introcard";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Social from "./components/social";
 import Gallery from "./components/gallery";
 import ArticleGallery from "./components/articleGallery";
+import SkillCard from "./components/skillCard";
 
 
 type ContainerProps = {
@@ -34,6 +35,7 @@ const page = () => {
               <Card />
               {/* <Tags /> */}
               <Social />
+              <SkillCard />
               <Footer />
             </aside>
             <div className="flex-row">
