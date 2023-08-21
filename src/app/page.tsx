@@ -39,7 +39,7 @@ const Page = () => {
     </div>
   );
 
-  const showStandardLayout = screenWidth >= 768;
+  const showStandardLayout = screenWidth >= 1000;
 
   return (
     <>

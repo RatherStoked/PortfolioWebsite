@@ -10,7 +10,7 @@ const gallery = () => {
         Projects&#40;{projectNumber}&#41;
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3">
+      <div className="grid grid-cols-1 md-sm:grid-cols-2 md-lg:grid-cols-3">
         <ProjectCard></ProjectCard>
         <ProjectCard></ProjectCard>
         <ProjectCard></ProjectCard>
