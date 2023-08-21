@@ -73,8 +73,9 @@ const Page = () => {
             <div className="border-b pb-10 pl-5"></div>
             <Gallery />
             <ArticleGallery />
-            <div className="border-b pb-10 pl-5"></div>
+            <div className="border-b pb-10 flex"></div>
             <Footer />
+            <div className="pb-10"></div>
           </div>
         )}
       </html>

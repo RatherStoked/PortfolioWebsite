@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div className='pt-5 pl-5 flex'>
-        <div className="pr-4">
+    <div className="pt-5 pl-5 flex">
+      <div className="pr-4">
         <a
           href=""
           title="Tag"
@@ -26,7 +26,7 @@ const Footer = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
