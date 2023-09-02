@@ -11,6 +11,7 @@ const config: Config = {
       screens: {
         'md-lg': '1500px', // Custom breakpoint
         'md-sm': '1200px',
+        'xs-sm': '700px',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

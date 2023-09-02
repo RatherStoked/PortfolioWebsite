@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
+
   return (
     <div className="pl-3 min-w-min">
       <div className="text-xs flex pr-32 pt-8">

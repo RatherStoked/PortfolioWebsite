@@ -12,7 +12,7 @@ const Card = () => {
         <div className="pt-8">
           <Bio></Bio>
         </div>
-        <div className="border-b pt-10 mr-5">
+        <div className="border-b pt-10">
 
         </div>
       </div>
