@@ -7,7 +7,7 @@ const ProjectCard = () => {
         <time className="block text-xs text-gray-500">10th Oct 2022</time>
 
         <a href="#" className="mt-2 block text-lg font-medium text-black">
-          How to position your furniture for positivity
+          This
         </a>
 
         <p className="mt-2 text-sm text-gray-700 line-clamp-3">
