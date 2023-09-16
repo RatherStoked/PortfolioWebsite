@@ -70,7 +70,7 @@ const Page = () => {
             <Navbar />
             <Card />
             <Social />
-            <SkillCard />
+            {/* <SkillCard /> */}
             <div className="border-b pb-10 pl-5 mx-5"></div>
             <Gallery />
             <ArticleGallery />
