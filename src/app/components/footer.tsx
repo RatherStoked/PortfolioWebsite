@@ -41,16 +41,12 @@ const Footer = () => {
               className="fixed top-0 left-0 right-0 bottom-0 bg-gray-500 bg-opacity-50 z-10"
             />
             <div className="contact-popup-content border border-gray-300 bg-white p-8 rounded-lg shadow-lg z-20 w-[400px]">
-              <button
-                onClick={closeContact}
-                className="absolute top-2 right-2 text-gray-500 hover:text-red-500"
-              >
-                X
-              </button>
-              <h2 className="text-xl font-semibold mb-4 pb-5 border-b">Contact Me</h2>
+              <h2 className="text-xl font-semibold mb-4 pb-5 border-b">
+                Contact Me
+              </h2>
               <p className="pb-5">
-                I am always excited to chat. The best ways to reach me are
-                email or connecting on Linkedin.
+                I am always excited to chat. The best ways to reach me are email
+                or connecting on Linkedin.
               </p>
               <div className="flex" style={{ fontSize: 0 }}>
                 <a
@@ -67,7 +63,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:mail.mattstokes@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
