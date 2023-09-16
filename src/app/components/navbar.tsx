@@ -10,8 +10,8 @@ const Navbar = () => {
           <Link href="/">mattstokes.xyz</Link>
         </div>
         <div className="invisible md:visible grid grid-cols-3 divide-x text-center">
-        <div className="px-5 cursor-pointer">Menu</div>
-        <div className="px-5 cursor-pointer">Projects</div>
+        {/* <div className="px-5 cursor-pointer">Menu</div>
+        <div className="px-5 cursor-pointer">Projects</div> */}
         </div>
 
       </div>

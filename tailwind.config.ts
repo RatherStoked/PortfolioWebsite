@@ -13,6 +13,9 @@ const config: Config = {
         'md-sm': '1200px',
         'xs-sm': '700px',
       },
+      spacing: {
+        '300': '500px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

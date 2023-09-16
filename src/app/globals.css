@@ -50,3 +50,8 @@ body {
   border-radius: 4px;
   /* max-height: 10px; */
 }
+
+.description-scroll {
+  max-height: 150px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}

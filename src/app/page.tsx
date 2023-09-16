@@ -52,7 +52,8 @@ const Page = () => {
                 <Card />
                 {/* <Tags /> */}
                 <Social />
-                <SkillCard />
+                {/* <SkillCard /> */}
+                <div className="pb-96"></div>
                 <Footer />
               </aside>
               <div className="flex-row">

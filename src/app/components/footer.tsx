@@ -18,7 +18,7 @@ const Footer = () => {
     <div className="pt-5 pl-5 flex relative">
       <div className="pr-4">
         <a
-          href="/MattStokes_Resume.pdf"
+          href="/MattStokesResume.pdf"
           title="Open PDF"
           target="_blank"
           rel="noopener noreferrer"
