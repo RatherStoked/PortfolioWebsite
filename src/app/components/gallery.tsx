@@ -36,7 +36,7 @@ const Gallery = () => {
       description: "Designing and building myoelectric prosthetics",
       imageUrl: "", // Replace with actual image URL
       date: "2018 - present",
-      body: "I have been designing and building transradial prosthetics for almost 5 years. I began in grade 9 with clunky elbow-actuated designs. Before moving to working with Myo-electrics and a much sleeker design in my upper years of highschool (A hand component from these years pictured below). Most recently my work in the domain has included a study concerning the usage of ultrasound-sourced medical imagery, processed through a Convolutional Neural Network for high DOF manipulation; and V3 of my 11-dof prosthetic design, which will mark the 15th fully printed iteration since my first prosthetic. ",
+      body: "I have been designing and building transradial prosthetics for almost 5 years. I began in grade 9 with clunky elbow-actuated designs. Before moving to working with Myo-electrics and a much sleeker design in my upper years of highschool (A hand component from these years pictured below). Most recently my work in the domain has included a study concerning the usage of ultrasound-sourced medical imagery, processed through a Convolutional Neural Network for high DOF manipulation; and V3 of my 11-dof prosthetic design, which will mark the 17th design iteration and 5th fully-redesigned and printed iteration since my first prosthetic. ",
       images: ["/images/prosthetic.jpg"],
       link: "",
     },
