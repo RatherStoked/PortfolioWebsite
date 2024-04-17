@@ -50,6 +50,16 @@ const Gallery = () => {
       images: ["/images/Foodle.png"],
       link: "",
     },
+    {
+      id: 4,
+      title: "Serial-Parallelized Bipedal Research Platform",
+      description: "Serial-Parallelized Bipedal Research Platform",
+      imageUrl: "", // Replace with actual image URL
+      date: "2024 - present",
+      body: "",
+      images: ["/images/"],
+      link: "",
+    },
 
   ];
 
