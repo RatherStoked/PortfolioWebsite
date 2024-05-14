@@ -26,6 +26,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <p className="mt-2 text-sm text-gray-700 line-clamp-3">
           {description}
         </p>
+        <div>
+          {imageUrl}
+        </div>
+
       </div>
     </div>
   );

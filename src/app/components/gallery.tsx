@@ -21,45 +21,67 @@ const Gallery = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Patch: 3D Printed Transdermal Microneedle Patches",
-      description:
-        "Taking a novel approach to AMR bacterial infection treatment through the use of self-administrating medicinal drug patches.",
-      imageUrl: "/images/Unfolded.png", // Replace with actual image URL
-      date: "2021 - 2023",
-      body: "As the technical lead and presenter of a team of student researchers, I worked on finding ways to combat Anti-Microbial Resistant Bacterial Infections through the use of Transdermal Patches and micro-needle arrays. During the course of the project, I created six different designs for the microneedle cores and arrays. I incorporated microfluidic principles to enable the dispensing of fluids through microchannels. Additionally, I created a unique dispensing system that, when combined with a rate-controlling polymer membrane, could release a packet of low-viscosity liquid at a consistent rate for adjustable time periods.",
-      link: "https://mattstokes.notion.site/Patch-5502d72740514391bfd161fbdc95f6c7?pvs=4",
-      images: ["/images/Unfolded.png"],
+      title: "Serial-Parallelized Bipedal Research Platform",
+      description: "Working on cost-effective, well designed hardware for the open-source community.",
+      imageUrl: "/images/Biped_wireframe.png", // Replace with actual image URL
+      date: "2024 - present",
+      body: "Currently designing a Serial Parallelized Bipedal Research platform, aimed at providing a high-quality open-source, biomimetic biped to the robotics community. V1 design is based around a Disney Imagineering research paper exploring the Serial Parallelized Bipedal mechanism for applications in biomimetic movement. Major advantage to this design is a distributed vertical load between two parallel chains, resulting in hip-pitch actuator and knee-pitch actuator acting in one chain, collaborating to generate higher torque in both dimensions. ",
+      images: ["/images/biped_shaded.png"],
+      link: "",
     },
     {
       id: 2,
+      title: "Rotary CNC Mill",
+      description: "An automated Lathe, designed to incorporate lego-technics electrical components with largely 3d printed mechanical components.",
+      imageUrl: "/images/CNC_Wireframe.png", // Replace with actual image URL
+      date: "2023 - 2023",
+      body: "Lead mechanical design for a small team during my 1A system design course. Despite being limited to largely lego and 3d-printed components/hardware, we managed to develop a fully functional CNC Lathe, which could take any given profile and radially engrave it into EVA foam without and user input. ",
+      images: ["images/IMG_9343-ezgif.com-video-to-gif-converter.gif"],
+      link: "",
+    },
+    {
+      id: 3,
       title: "3D Myoelectric Prosthetics",
       description: "Designing and building myoelectric prosthetics",
-      imageUrl: "", // Replace with actual image URL
+      imageUrl: "/images/Prosthetic_wireframe.png", // Replace with actual image URL
       date: "2018 - present",
       body: "I have been designing and building transradial prosthetics for almost 5 years. I began in grade 9 with clunky elbow-actuated designs. Before moving to working with Myo-electrics and a much sleeker design in my upper years of highschool (A hand component from these years pictured below). Most recently my work in the domain has included a study concerning the usage of ultrasound-sourced medical imagery, processed through a Convolutional Neural Network for high DOF manipulation; and V3 of my 11-dof prosthetic design, which will mark the 17th design iteration and 5th fully-redesigned and printed iteration since my first prosthetic. ",
       images: ["/images/prosthetic.jpg"],
       link: "",
     },
     {
-      id: 3,
+      id: 4,
+      title: "Patch: 3D Printed Transdermal Microneedle Patches",
+      description:
+        "Taking a novel approach to AMR bacterial infection treatment through the use of self-administrating medicinal drug patches.",
+      imageUrl: "/images/Patch_Wireframe.png", // Replace with actual image URL
+      date: "2021 - 2023",
+      body: "As the technical lead and presenter of a team of student researchers, I worked on finding ways to combat Anti-Microbial Resistant Bacterial Infections through the use of Transdermal Patches and micro-needle arrays. During the course of the project, I created six different designs for the microneedle cores and arrays. I incorporated microfluidic principles to enable the dispensing of fluids through microchannels. Additionally, I created a unique dispensing system that, when combined with a rate-controlling polymer membrane, could release a packet of low-viscosity liquid at a consistent rate for adjustable time periods.",
+      link: "https://mattstokes.notion.site/Patch-5502d72740514391bfd161fbdc95f6c7?pvs=4",
+      images: ["/images/Unfolded.png"],
+    },
+
+    {
+      id: 5,
       title: "Foodle: Decentralized Solution to Urban Food Insecurity",
       description: "Blockchain-based social app for food sharing and redistribution in urban communities.",
-      imageUrl: "", // Replace with actual image URL
+      imageUrl: "/images/foodle_wireframe.png", // Replace with actual image URL
       date: "2020 - 2021",
       body: "After competing in a 24hr youth hackathon with the Foodle concept, I decided the concept was interesting and impactful enough to spin out into a standalone project. I launched the MVP through a Discord community where I recruited 2 sets of people from 2 different communities in Vancouver through door-to-door networking, eventually growing to 32 members. The two categories of food redistribution were fresh produce and canned/containerized food. By the end of the 3-month experiment, we managed to distribute a total of $500 worth of produce and $140 worth of canned/containerized food. ",
       images: ["/images/Foodle.png"],
       link: "",
     },
     {
-      id: 4,
-      title: "Serial-Parallelized Bipedal Research Platform",
-      description: "Serial-Parallelized Bipedal Research Platform",
-      imageUrl: "", // Replace with actual image URL
-      date: "2024 - present",
-      body: "",
-      images: ["/images/"],
+      id: 6,
+      title: "Mini-Whoop FPV Drone",
+      description: "Weekend design sprint.",
+      imageUrl: "/images/oxcart_drone.png", // Replace with actual image URL
+      date: "2017 - 2017",
+      body: "One of my more complete multi-component assemblies from when I was first starting out with CAD in fusion 360 at age 15ish. A small mini-whoop modelled after I believe the Oxcart Mini-Whoop series of products.",
+      images: ["/images/Drone_shaded.png"],
       link: "",
     },
+
 
   ];
 
@@ -119,6 +141,9 @@ const Gallery = () => {
               <p className="mt-2 text-sm text-gray-700">
                 {project.description}
               </p>
+
+              <img src={project.imageUrl} alt="" className="mt-4 rounded-md" />
+
             </div>
           </div>
         ))}
