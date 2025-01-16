@@ -77,7 +77,7 @@ const Gallery = () => {
       description: "Weekend design sprint.",
       imageUrl: "/images/oxcart_drone.png", // Replace with actual image URL
       date: "2017 - 2017",
-      body: "One of my more complete multi-component assemblies from when I was first starting out with CAD in fusion 360 at age 15ish. A small mini-whoop modelled after I believe the Oxcart Mini-Whoop series of products.",
+      body: "One of my more complete multi-component assemblies from when I was first starting out with CAD in fusion 360 at age 15.",
       images: ["/images/Drone_shaded.png"],
       link: "",
     },
