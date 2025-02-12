@@ -21,6 +21,16 @@ const Gallery = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "General Physical Intelligence Robotic Platform",
+      description: "Cheap, Fully capable general purpose robot for VLM and RL-based training and research.",
+      imageUrl: "/images/Bracket_Bot_AlohaArms_hq5.png", // Replace with actual image URL
+      date: "2024 - present",
+      body: "I designed, built and ROS2-integrated this robotic platform over a 52 hour period (without sleep). It has 2x 7dof Arms and a linear arm stage with 1000N of force output. It is currently being used to finetune a locally-run PI0 model to allow for a fully autonomous, video base reasoning to action pipeline.",
+      images: ["/images/biped_shaded.png"],
+      link: "",
+    },
+    {
+      id: 2,
       title: "Serial-Parallelized Bipedal Research Platform",
       description: "Working on cost-effective, well designed hardware for the open-source community.",
       imageUrl: "/images/Biped_wireframe.png", // Replace with actual image URL
@@ -30,7 +40,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 2,
+      id: 3,
       title: "Rotary CNC Mill",
       description: "An automated Lathe, designed to incorporate lego-technics electrical components with largely 3d printed mechanical components.",
       imageUrl: "/images/CNC_Wireframe.png", // Replace with actual image URL
@@ -40,7 +50,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "3D Myoelectric Prosthetics",
       description: "Designing and building myoelectric prosthetics",
       imageUrl: "/images/Prosthetic_wireframe.png", // Replace with actual image URL
@@ -50,7 +60,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 4,
+      id: 5,
       title: "Patch: 3D Printed Transdermal Microneedle Patches",
       description:
         "Taking a novel approach to AMR bacterial infection treatment through the use of self-administrating medicinal drug patches.",
@@ -62,7 +72,7 @@ const Gallery = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Foodle: Decentralized Solution to Urban Food Insecurity",
       description: "Blockchain-based social app for food sharing and redistribution in urban communities.",
       imageUrl: "/images/foodle_wireframe.png", // Replace with actual image URL
@@ -72,7 +82,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 6,
+      id: 7,
       title: "Mini-Whoop FPV Drone",
       description: "Weekend design sprint.",
       imageUrl: "/images/oxcart_drone.png", // Replace with actual image URL
