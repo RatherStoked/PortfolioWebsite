@@ -23,11 +23,11 @@ const Gallery = () => {
       id: 1,
       title: "General Physical Intelligence Robotic Platform",
       description: "Cheap, Fully capable general purpose robot for VLM and RL-based training and research.",
-      imageUrl: "/images/Bracket_Bot_AlohaArms_hq5.png", // Replace with actual image URL
+      imageUrl: "/images/BracketBot2.png", // Replace with actual image URL
       date: "2024 - present",
-      body: "I designed, built and ROS2-integrated this robotic platform over a 52 hour period (without sleep). It has 2x 7dof Arms and a linear arm stage with 1000N of force output. It is currently being used to finetune a locally-run PI0 model to allow for a fully autonomous, video base reasoning to action pipeline.",
-      images: ["/images/biped_shaded.png"],
-      link: "",
+      body: "I designed, built and ROS2-integrated this robotic platform over a 52 hour period (without sleep). It has 2x 7dof Arms and a linear arm stage with 1000N of force output. It is currently being used to finetune a locally-run PI0 model to allow for a fully autonomous, video base reasoning to action pipeline. Click 'Learn more' to see the finished bot and demo video.",
+      images: ["/images/BracketBot.png"],
+      link: "https://x.com/ratherstoked/status/1889313990230106435",
     },
     {
       id: 2,
@@ -87,7 +87,7 @@ const Gallery = () => {
       description: "Weekend design sprint.",
       imageUrl: "/images/oxcart_drone.png", // Replace with actual image URL
       date: "2017 - 2017",
-      body: "One of my more complete multi-component assemblies from when I was first starting out with CAD in fusion 360 at age 15.",
+      body: "One of my first multi-component assemblies from when I was first starting out with CAD in fusion 360 at age 15.",
       images: ["/images/Drone_shaded.png"],
       link: "",
     },
