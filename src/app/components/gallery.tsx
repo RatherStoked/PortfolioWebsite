@@ -31,7 +31,7 @@ const Gallery = () => {
     },
     {
       id: 2,
-      title: "Reactive Ion Etching Machine",
+      title: "Reactive Ion Etching Chamber",
       description: "Will be leading design on an affordable ~$2k RIE machine for the open-source Hackerfab community.",
       imageUrl: "/images/ReactiveIonEtchingVertical.png", // Replace with actual image URL
       date: "2025 - present",
