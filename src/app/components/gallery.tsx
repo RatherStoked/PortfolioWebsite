@@ -24,13 +24,23 @@ const Gallery = () => {
       title: "General Physical Intelligence Robotic Platform",
       description: "Cheap, Fully capable general purpose robot for VLM and RL-based training and research.",
       imageUrl: "/images/BracketBot2.png", // Replace with actual image URL
-      date: "2024 - present",
+      date: "2025 - present",
       body: "I designed, built and ROS2-integrated this robotic platform over a 52 hour period (without sleep). It has 2x 7dof Arms and a linear arm stage with 1000N of force output. It is currently being used to finetune a locally-run PI0 model to allow for a fully autonomous, video base reasoning to action pipeline. Click 'Learn more' to see the finished bot and demo video.",
       images: ["/images/BracketBot.png"],
       link: "https://x.com/ratherstoked/status/1889313990230106435",
     },
     {
       id: 2,
+      title: "Reactive Ion Etching Machine",
+      description: "Will be leading design on an affordable ~$2k RIE machine for the open-source Hackerfab community.",
+      imageUrl: "/images/ReactiveIonEtchingVertical.png", // Replace with actual image URL
+      date: "2025 - present",
+      body: "Currently in planning/research phase of leading design for an affordable DIY Reactive Ion Etcher. Our target cost is ~$2k for the first REV and ideally even cheaper for V2. This is a project I am leading for the Hackerfab Waterloo community, work will begin March 2025, watch my Twitter as well as hackerfab's Twitter (Learn More button) to follow along for updates. ",
+      images: ["/images/ReactiveIonEtching.png"],
+      link: "https://x.com/waterloofab",
+    },
+    {
+      id: 3,
       title: "Serial-Parallelized Bipedal Research Platform",
       description: "Working on cost-effective, well designed hardware for the open-source community.",
       imageUrl: "/images/Biped_wireframe.png", // Replace with actual image URL
@@ -40,7 +50,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Rotary CNC Mill",
       description: "An automated Lathe, designed to incorporate lego-technics electrical components with largely 3d printed mechanical components.",
       imageUrl: "/images/CNC_Wireframe.png", // Replace with actual image URL
@@ -50,7 +60,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 4,
+      id: 5,
       title: "3D Myoelectric Prosthetics",
       description: "Designing and building myoelectric prosthetics",
       imageUrl: "/images/Prosthetic_wireframe.png", // Replace with actual image URL
@@ -60,7 +70,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 5,
+      id: 6,
       title: "Patch: 3D Printed Transdermal Microneedle Patches",
       description:
         "Taking a novel approach to AMR bacterial infection treatment through the use of self-administrating medicinal drug patches.",
@@ -72,7 +82,7 @@ const Gallery = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       title: "Foodle: Decentralized Solution to Urban Food Insecurity",
       description: "Blockchain-based social app for food sharing and redistribution in urban communities.",
       imageUrl: "/images/foodle_wireframe.png", // Replace with actual image URL
@@ -82,7 +92,7 @@ const Gallery = () => {
       link: "",
     },
     {
-      id: 7,
+      id: 8,
       title: "Mini-Whoop FPV Drone",
       description: "Weekend design sprint.",
       imageUrl: "/images/oxcart_drone.png", // Replace with actual image URL
