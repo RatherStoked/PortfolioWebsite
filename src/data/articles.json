@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Medicinal Drug Administration Review",
+    "date": "2023-01-28",
+    "link": "https://medium.com/patchtb/medicinal-drug-administration-38cf40026701"
+  },
+  {
+    "id": 2,
+    "title": "Exploring Transdermal Patches and their Effectiveness Against Bacterial Infections",
+    "date": "2022-05-08",
+    "link": "https://medium.com/patchtb/transdermal-patches-and-their-effectiveness-against-bacterial-infections-8556b87194c6"
+  },
+  {
+    "id": 3,
+    "title": "Intro To Blockchain Development with React.js and Solidity",
+    "date": "2022-03-27",
+    "link": "https://medium.com/geekculture/crypto-jam-with-a-jar-5e1a8e254d"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to the Smart Contract Mechanism",
+    "date": "2021-06-12",
+    "link": "https://medium.com/geekculture/smart-contracts-what-are-they-and-how-do-they-work-2a5de5ec4cab"
+  },
+  {
+    "id": 5,
+    "title": "Hash Functions: Introduction and Use Cases",
+    "date": "2021-11-14",
+    "link": "https://medium.com/patchtb/transdermal-patches-and-their-effectiveness-against-bacterial-infections-8556b87194c6"
+  }
+]
